@@ -1,0 +1,26 @@
+h2{
+    text-align:center;
+    font-size:30px;
+}
+.gridContainer{
+    display:flex;
+    column-gap:90px;
+    row-gap:15px;
+    flex-wrap:wrap;
+    border:3px solid black;
+    padding:20px;
+    background-color:rgb(234,123,111,1);
+
+
+}
+.gridItem:hover{
+    border:5px solid green;
+    
+    
+
+
+}
+
+h2:hover{
+    color:green;
+}

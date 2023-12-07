@@ -1,0 +1,277 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.main_box{
+    
+    height:100vh;
+
+}
+
+.btn_one i{
+    color:black;
+    font-size:30px;
+    font-weight:700;
+    position:absolute;
+    left:16px;
+    line-height:60px;
+    cursor:pointer;
+    transition:all 0.3s linear;
+}
+
+   .sidebar_menu{
+    position:fixed;
+    left:-300px;
+    height:100vh;
+    width:300px;
+    background-color:white;
+    box-shadow:0 0 2px rgba(255,255,255,1); 
+    transition:all 0.3s linear;
+    opacity:0.8;
+}
+
+.sidebar_menu.logo{
+    position:absolute;
+    width:100%;
+    
+    line-height:60px;
+    
+    height:60px;
+    
+}
+
+.sidebar_menu .logo a{
+    position:absolute;
+    top:15px;
+    left:50px;
+    color:black;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:500;
+    width:200px;
+    box-shadow:0 2px 4px rgba(0,0,0,1);
+}
+.sidebar_menu .btn_two i{
+    color:black;
+    font-size:25px;
+    line-height:60px;
+    position:absolute;
+    left:275px;
+    opacity:1;
+    cursor:pointer;
+    transition:all 0.3s linear;
+
+}
+.sidebar_menu .menu{
+    position:absolute;
+    width:100%;
+    top:80px;
+}
+
+.sidebar_menu .menu li{
+    margin-top:6px;
+    padding:14px 20px;
+}
+
+.sidebar_menu .menu i,a{
+    color:black;
+    text-decoration:none;
+    font-size:20px;
+}
+.sidebar_menu .menu i{
+    padding-right:8px;
+}
+
+.sidebar_menu .social_media{
+    
+    position:absolute;
+    left:25%;
+    bottom:50px;
+}
+
+.sidebar_menu .social_media i{
+    color:black;
+    opacity:0.5;
+    padding:0 5px;
+}
+#check{
+    display:none;
+}
+
+.sidebar_menu .menu li:hover{
+    box-shadow:0 0 4px rgb(1,1,1,0.5);
+}
+.btn_one i:hover{
+    font-size:40px;
+}
+
+.btn_two i:hover{
+    font-size:30px;
+}
+
+.sidebar_menu .social_media i:hover{
+    opacity:1;
+    transform:scale(1.1);
+}
+
+#check:checked ~ .sidebar_menu{
+    left:0;
+
+}
+#check:checked ~.btn_one i{
+   opacity:0;
+}
+body {
+    
+    background:url(desk.jpeg);
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  
+   
+   
+    height: 100vh; 
+  
+}
+
+.container {
+   
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 400px;
+    padding-left:200px;
+  
+   
+}
+
+
+
+
+.form-body {
+    padding: 20px;
+  
+}
+
+.inner-container {
+    margin-bottom: 20px;
+   
+    
+}
+
+.inner-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.inner-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color:grey;
+    color:white;
+    line-height: 30px;
+}
+
+
+
+
+.container{
+    opacity:1;
+    /* background-color:black; */
+}
+.inner-container input::placeholder{
+    color:whitesmoke;
+    opacity:1;
+}
+.inner-container input{
+    color:whitesmoke;
+    opacity:1;
+}
+.inner-container input::placeholder{
+    background-color:grey;
+}
+
+
+
+.inner-container button {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    /* opacity:1; */
+}
+
+.inner-container button:hover {
+    background-color: white;
+    cursor:pointer;
+}
+
+.form-switch {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-switch p{
+    color:white;
+}
+
+.form-switch a {
+    color: orange;
+    text-decoration: none;
+}
+
+.form-switch a:hover {
+    text-decoration: underline;
+}
+
+.sidebar_menu .logo a:hover{
+    box-shadow:0 2px 6px rgba(0,0,0,1);
+}
+.container{
+    opacity:1;
+}
+.rem-for{
+    color:white;
+    
+    
+}
+.rem-for a{
+    color:white;
+    margin-left:75px;
+    font-size:16px;
+    text-decoration: dashed;
+ 
+}
+ /* .nav{
+    align-self:flex-start;
+    padding:10px;
+    order:2;
+    
+    display:flex;
+    flex-wrap:wrap;
+
+   
+
+}
+
+.nav a{
+    color:white;
+    padding:20px;
+}  */
+h2{
+    text-align:center;
+    color:white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
